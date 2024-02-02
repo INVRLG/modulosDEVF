@@ -1,3 +1,4 @@
+//PILA = LIFO
 function obtenerElementosDePila(pila, numero) {
     const resultado = [];
   
@@ -12,7 +13,7 @@ function obtenerElementosDePila(pila, numero) {
       resultado.push(pila.pop());
     }
   
-    return resultado.reverse(); // Invertir el resultado para que coincida con el orden original
+    return resultado; // Invertir el resultado para que coincida con el orden original
   }
   
   // Ejemplo de uso
