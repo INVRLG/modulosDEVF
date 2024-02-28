@@ -15,6 +15,7 @@ class cola{
     }
 
     mostrarUltimoElemento(){
+        return this.elementos[0];
     }
     mostrarPrimerElemento(){
         return this.elementos[this.elementos.length - 1];
