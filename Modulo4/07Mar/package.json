@@ -1,14 +1,15 @@
 {
-  "name": "modulo4",
+  "name": "07mar",
   "version": "1.0.0",
-  "description": "Este es el primer proyecto de NPM",
+  "description": "call api",
   "main": "index.js",
+  "type":"module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Ricardo",
+  "author": "",
   "license": "ISC",
   "dependencies": {
-    "is-odd": "^3.0.1"
+    "request": "^2.88.2"
   }
 }
